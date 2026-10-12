@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-12T19:58:41Z",
+  "updatedAt": "2026-10-12T20:36:29Z",
   "mods": [
     {
       "id": "sulfur-multiplayer",
@@ -43,10 +43,10 @@
         "Installer exe + raw mod folders + README in one zip"
       ],
       "file": "noita-multiplayer.zip",
-      "version": "1.4.0",
+      "version": "1.4.1",
       "status": "available",
-      "updatedAt": "2026-10-12T19:03:03Z",
-      "changelog": "1.4.0: invited friends can join from Noita's main menu (host uses F9 > Invite <friend>, the friend just starts a game), dying while polymorphed now puts you down instead of ending the run, and doubled enemies/objects are detected and merged automatically. Both players must update (1.3.0 can't connect to 1.4.0).",
+      "updatedAt": "2026-10-12T20:36:29Z",
+      "changelog": "1.4.1: fixed a crash when an enemy run by the other player's game picked up or switched a wand, fixed a possible inventory crash when both players grabbed the same item, and a polymorphed partner now shows up as the creature they turned into. Both players should update (1.4.0 can still connect). 1.4.0: join from the main menu after an F9 invite, polymorphed deaths put you down instead, doubled enemies/objects are merged automatically.",
       "media": {
         "cover": "media/noita-multiplayer/cover.jpg",
         "gif": "media/noita-multiplayer/highlights.webp",
