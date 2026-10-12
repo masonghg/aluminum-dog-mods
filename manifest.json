@@ -1,0 +1,84 @@
+{
+  "updatedAt": "2026-10-12T15:24:21Z",
+  "mods": [
+    {
+      "id": "noita-multiplayer",
+      "name": "Noita Multiplayer",
+      "game": "Noita",
+      "summary": "Two-player online co-op in one shared, fully synced Noita world. Join through Steam or by IP.",
+      "description": "Noita Multiplayer puts you and a friend in the same world at the same time: terrain, liquids, fire, enemies, items, physics objects, spells, perks, orbs and hearts are all synced. Pick \"Co-op: Host\" or \"Co-op: Join\" in the New Game menu, or invite your friend through Steam and their game loads your world by itself. If you die while your partner is alive you go down instead, and they can revive you.\n\nThe zip contains an installer (NoitaCoop_Installer.exe) that sets everything up, the raw mod folders if you'd rather install it yourself, and a README explaining both. Both players need the same version.",
+      "details": [
+        "Shared world: terrain, water, fire, enemies, items and physics props stay in sync",
+        "Join through Steam invites (no port forwarding) or by direct IP",
+        "Downed & revive, shared perks, orbs and hearts",
+        "Installer exe + raw mod folders + README in one zip"
+      ],
+      "file": "noita-multiplayer.zip",
+      "version": "1.3.0",
+      "status": "available",
+      "updatedAt": "2026-10-12T15:24:21Z",
+      "changelog": "1.3.0: fixed ghost enemies (only visible to one player, or unkillable), fixed enemies spawning doubled inside each other, burning terrain and props now sync, water/liquids are re-checked and repaired much faster. Both players must update (1.2.0 can't connect to 1.3.0).",
+      "media": {
+        "cover": "media/noita-multiplayer/cover.jpg",
+        "gif": "media/noita-multiplayer/highlights.webp",
+        "images": [
+          "media/noita-multiplayer/ss1.jpg",
+          "media/noita-multiplayer/ss2.jpg",
+          "media/noita-multiplayer/ss3.jpg"
+        ]
+      }
+    },
+    {
+      "id": "ftl-multiplayer",
+      "name": "FTL: Faster Than Light Multiplayer",
+      "game": "FTL: Faster Than Light",
+      "summary": "Crew the ship together\u2014co-op multiplayer for FTL so friends can jump, fight, and scrap as a team.",
+      "description": "The FTL multiplayer mod turns the lonely captain's chair into a shared bridge. Coordinate systems, weapons, and boarding while the Rebel fleet closes in. Perfect for couch-or-online co-op nights when you want everyone yelling about oxygen at once.\n\nPublish a new build from Cursor and this page's download button silently swaps to the new zip\u2014same link every time.",
+      "details": [
+        "Co-op focused multiplayer for FTL runs",
+        "Share ship management across players",
+        "Always-latest zip via the Aluminum Dog publish workflow"
+      ],
+      "file": "ftl-multiplayer.zip",
+      "version": "0.0.0-placeholder",
+      "status": "available",
+      "updatedAt": null,
+      "changelog": "Slot ready. Publish from Souper / Cursor to replace this placeholder zip.",
+      "media": {
+        "cover": "media/ftl-multiplayer/cover.jpg",
+        "gif": "media/ftl-multiplayer/highlights.webp",
+        "images": [
+          "media/ftl-multiplayer/ss1.jpg",
+          "media/ftl-multiplayer/ss2.jpg",
+          "media/ftl-multiplayer/ss3.jpg"
+        ]
+      }
+    },
+    {
+      "id": "soulforge-multiplayer",
+      "name": "Soulforge Multiplayer",
+      "game": "Soulforge",
+      "summary": "Bring friends into Soulforge\u2014multiplayer builds published here the moment Cursor finishes an update.",
+      "description": "Soulforge Multiplayer packages the latest co-op / online build so your friends can hop in without you manually shipping files. Open the dropdown for a look at the vibe, read what's new in the changelog, then download the zip.\n\nWhen Souper (or Cursor) finishes updating the mod, it can publish straight to this slot\u2014overwriting soulforge-multiplayer.zip and refreshing the version badge automatically.",
+      "details": [
+        "Dedicated multiplayer package for Soulforge",
+        "Version badge and changelog update on each publish",
+        "Designed for friend installs\u2014one URL, always current"
+      ],
+      "file": "soulforge-multiplayer.zip",
+      "version": "0.0.0-placeholder",
+      "status": "available",
+      "updatedAt": null,
+      "changelog": "Slot ready. Publish from Souper / Cursor to replace this placeholder zip.",
+      "media": {
+        "cover": "media/soulforge-multiplayer/cover.jpg",
+        "gif": "media/soulforge-multiplayer/highlights.webp",
+        "images": [
+          "media/soulforge-multiplayer/ss1.jpg",
+          "media/soulforge-multiplayer/ss2.jpg",
+          "media/soulforge-multiplayer/ss3.jpg"
+        ]
+      }
+    }
+  ]
+}

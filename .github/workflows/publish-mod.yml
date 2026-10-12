@@ -1,0 +1,78 @@
+name: Publish mod download
+
+on:
+  repository_dispatch:
+    types: [publish-mod]
+  workflow_dispatch:
+    inputs:
+      mod_id:
+        description: "Mod id"
+        required: true
+        type: choice
+        options:
+          - noita-multiplayer
+          - ftl-multiplayer
+          - soulforge-multiplayer
+      version:
+        required: true
+        type: string
+      download_url:
+        required: true
+        type: string
+      changelog:
+        required: false
+        type: string
+        default: Automated publish
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Resolve inputs
+        id: meta
+        shell: bash
+        run: |
+          if [[ "${{ github.event_name }}" == "repository_dispatch" ]]; then
+            echo "mod_id=${{ github.event.client_payload.mod_id }}" >> "$GITHUB_OUTPUT"
+            echo "version=${{ github.event.client_payload.version }}" >> "$GITHUB_OUTPUT"
+            echo "download_url=${{ github.event.client_payload.download_url }}" >> "$GITHUB_OUTPUT"
+            echo "changelog=${{ github.event.client_payload.changelog }}" >> "$GITHUB_OUTPUT"
+          else
+            echo "mod_id=${{ inputs.mod_id }}" >> "$GITHUB_OUTPUT"
+            echo "version=${{ inputs.version }}" >> "$GITHUB_OUTPUT"
+            echo "download_url=${{ inputs.download_url }}" >> "$GITHUB_OUTPUT"
+            echo "changelog=${{ inputs.changelog }}" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Download zip
+        shell: bash
+        run: curl -fsSL "${{ steps.meta.outputs.download_url }}" -o /tmp/incoming.zip
+
+      - name: Install
+        env:
+          MOD_ID: ${{ steps.meta.outputs.mod_id }}
+          MOD_VERSION: ${{ steps.meta.outputs.version }}
+          MOD_CHANGELOG: ${{ steps.meta.outputs.changelog }}
+        shell: bash
+        run: |
+          chmod +x scripts/publish-mod.sh
+          if [[ -z "$MOD_CHANGELOG" ]]; then MOD_CHANGELOG="Automated publish"; fi
+          ./scripts/publish-mod.sh "$MOD_ID" /tmp/incoming.zip "$MOD_VERSION" "$MOD_CHANGELOG"
+
+      - name: Commit and push
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "${{ steps.meta.outputs.mod_id }}.zip" manifest.json
+          if git diff --staged --quiet; then
+            echo "No changes"
+            exit 0
+          fi
+          git commit -m "Publish ${{ steps.meta.outputs.mod_id }} ${{ steps.meta.outputs.version }}"
+          git push
