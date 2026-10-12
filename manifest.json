@@ -1,25 +1,26 @@
 {
-  "updatedAt": "2026-10-12T20:36:29Z",
+  "updatedAt": "2026-10-12T21:00:17Z",
   "mods": [
     {
       "id": "sulfur-multiplayer",
       "name": "SULFUR Multiplayer",
       "game": "SULFUR",
       "summary": "Online co-op for 2\u20138 players. Fight the same enemies, share the loot and drop into each other's levels through Steam.",
-      "description": "SULFUR Multiplayer lets you and your friends play SULFUR together. One player loads their save and hosts from the F8 menu, and everyone else joins through Steam (an invite, or \"Join Game\" in the friends list) \u2014 no IP addresses or port forwarding. Joiners drop straight into the host's level and follow them from level to level, and the whole party always lands in the same world. Enemies are run by the host's game, go after every player and scale with the number of players. Boss fights, thrown grenades, loot, chests, doors, breakables and loose physics objects are shared, the church stash and shops are shared, and you can hand ammo to a teammate with one key. Other players show up as goblins holding whatever weapon they have out. Everyone keeps their own character, inventory and save.\n\nThe zip contains an installer (SulfurMP-Setup.exe) that finds your SULFUR folder and sets everything up, the raw mod files if you'd rather install it yourself, and a README explaining both. Everyone needs the same version.",
+      "description": "SULFUR Multiplayer lets you and your friends play SULFUR together. One player loads their save and hosts from the F8 menu, and everyone else joins through Steam (an invite, or \"Join Game\" in the friends list) \u2014 no IP addresses or port forwarding. Joiners drop straight into the host's level and follow them from level to level, and the whole party always lands in the same world. Enemies are run by the host's game, go after every player and scale with the number of players. Boss fights, thrown grenades, loot, chests, doors, breakables and loose physics objects are shared, the church stash and shops are shared, and you can drop ammo boxes for teammates straight from your inventory. Other players show up as priests matching the first-person arms, holding whatever weapon they have out, and you see their bullets, reloads and crouching. A bar at the top of the screen shows everyone's ping and health and who joins or leaves. Everyone keeps their own character, inventory and save.\n\nThe zip contains an installer (SulfurMP-Setup.exe) that finds your SULFUR folder and sets everything up, the raw mod files if you'd rather install it yourself, and a README explaining both. Everyone needs the same version.",
       "details": [
         "2\u20138 players, joined through Steam invites or \"Join Game\" (no port forwarding)",
         "Enemy count scales with players (2 players = 2x enemies)",
         "Shared enemies, boss fights, grenades, loot, chests, doors and physics objects",
-        "Shared church stash and shops, and give ammo to teammates with G",
+        "Shared church stash and shops, and drop ammo boxes for teammates from your inventory",
+        "See other players' bullets, reloads and crouching, plus a top bar with ping and joins/leaves",
         "Friends follow the host automatically and always end up in the same world",
         "Installer exe + raw mod files + README in one zip"
       ],
       "file": "sulfur-multiplayer.zip",
-      "version": "0.4.0",
+      "version": "0.5.0",
       "status": "available",
-      "updatedAt": "2026-10-12T19:58:41Z",
-      "changelog": "0.4.0: enemies scale with player count (2 players = 2x enemies), shared boss fights, synced hold-to-open doors and metal gates, thrown grenades show for everyone, shared church stash and shops, give ammo to a teammate with G, everyone always lands in the same world when someone takes an exit, and taller goblins with properly placed arms. Everyone must update \u2014 0.3.0 can't play with 0.4.0.",
+      "updatedAt": "2026-10-12T21:00:17Z",
+      "changelog": "0.5.0: enemies no longer shoot at the floor when aiming at other players, other players' guns are visible again (held by the first-person arms), you can see other players' bullets and reloads (with a RELOADING sign), crouching is synced, other players are now human priests that match the first-person arms, a new bar at the top of the screen shows players, ping, health and joins/leaves, and ammo is shared by dropping boxes from your inventory (click an ammo counter) instead of the G key. Everyone must update \u2014 0.4.0 can't play with 0.5.0. 0.4.0: enemies scale with player count (2 players = 2x enemies), shared boss fights, synced hold-to-open doors and metal gates, thrown grenades show for everyone, shared church stash and shops, give ammo to a teammate with G, everyone always lands in the same world when someone takes an exit, and taller goblins with properly placed arms. Everyone must update \u2014 0.3.0 can't play with 0.4.0.",
       "media": {
         "cover": "media/sulfur-multiplayer/cover.jpg",
         "gif": "media/sulfur-multiplayer/highlights.webp",
