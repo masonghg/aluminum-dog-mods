@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-12T17:36:18Z",
+  "updatedAt": "2026-10-12T19:03:03Z",
   "mods": [
     {
       "id": "sulfur-multiplayer",
@@ -33,18 +33,18 @@
       "name": "Noita Multiplayer",
       "game": "Noita",
       "summary": "Two-player online co-op in one shared, fully synced Noita world. Join through Steam or by IP.",
-      "description": "Noita Multiplayer puts you and a friend in the same world at the same time: terrain, liquids, fire, enemies, items, physics objects, spells, perks, orbs and hearts are all synced. Pick \"Co-op: Host\" or \"Co-op: Join\" in the New Game menu, or invite your friend through Steam and their game loads your world by itself. If you die while your partner is alive you go down instead, and they can revive you.\n\nThe zip contains an installer (NoitaCoop_Installer.exe) that sets everything up, the raw mod folders if you'd rather install it yourself, and a README explaining both. Both players need the same version.",
+      "description": "Noita Multiplayer puts you and a friend in the same world at the same time: terrain, liquids, fire, enemies, items, physics objects, spells, perks, orbs and hearts are all synced. Pick \"Co-op: Host\" or \"Co-op: Join\" in the New Game menu, or invite your friend through Steam and their game loads your world by itself \u2014 even if they're sitting on the main menu. If you die while your partner is alive (even as a polymorphed creature) you go down instead, and they can revive you.\n\nThe zip contains an installer (NoitaCoop_Installer.exe) that sets everything up, the raw mod folders if you'd rather install it yourself, and a README explaining both. Both players need the same version.",
       "details": [
         "Shared world: terrain, water, fire, enemies, items and physics props stay in sync",
-        "Join through Steam invites (no port forwarding) or by direct IP",
-        "Downed & revive, shared perks, orbs and hearts",
+        "Join through Steam invites (no port forwarding), even from the main menu, or by direct IP",
+        "Downed & revive (polymorphed too), shared perks, orbs and hearts",
         "Installer exe + raw mod folders + README in one zip"
       ],
       "file": "noita-multiplayer.zip",
-      "version": "1.3.0",
+      "version": "1.4.0",
       "status": "available",
-      "updatedAt": "2026-10-12T15:24:21Z",
-      "changelog": "1.3.0: fixed ghost enemies (only visible to one player, or unkillable), fixed enemies spawning doubled inside each other, burning terrain and props now sync, water/liquids are re-checked and repaired much faster. Both players must update (1.2.0 can't connect to 1.3.0).",
+      "updatedAt": "2026-10-12T19:03:03Z",
+      "changelog": "1.4.0: invited friends can join from Noita's main menu (host uses F9 > Invite <friend>, the friend just starts a game), dying while polymorphed now puts you down instead of ending the run, and doubled enemies/objects are detected and merged automatically. Both players must update (1.3.0 can't connect to 1.4.0).",
       "media": {
         "cover": "media/noita-multiplayer/cover.jpg",
         "gif": "media/noita-multiplayer/highlights.webp",
