@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-12T15:24:21Z",
+  "updatedAt": "2026-10-12T16:52:16Z",
   "mods": [
     {
       "id": "noita-multiplayer",
@@ -32,18 +32,19 @@
       "id": "ftl-multiplayer",
       "name": "FTL: Faster Than Light Multiplayer",
       "game": "FTL: Faster Than Light",
-      "summary": "Crew the ship together\u2014co-op multiplayer for FTL so friends can jump, fight, and scrap as a team.",
-      "description": "The FTL multiplayer mod turns the lonely captain's chair into a shared bridge. Coordinate systems, weapons, and boarding while the Rebel fleet closes in. Perfect for couch-or-online co-op nights when you want everyone yelling about oxygen at once.\n\nPublish a new build from Cursor and this page's download button silently swaps to the new zip\u2014same link every time.",
+      "summary": "Crew one ship together\u2014online co-op for up to 8 players, each controlling one crew member. Join through Steam or by IP.",
+      "description": "FTL Co-op puts up to 8 players on the same ship. Each player controls one crew member and runs the controls of the room they're standing in: the pilot handles power, jumps and the star map, the gunner aims and fires, and the doors, drones, teleporter, cloaking, hacking and mind control each belong to whoever mans that room. Crew nobody controls are run by a smarter AI that mans stations, repairs, fights fires and boarders and heads to the medbay when hurt. Invite a Steam friend from FTL's main menu (no port forwarding), or join by IP.\n\nThe zip contains an installer (FTL-Coop-Install.exe) that rolls FTL back to 1.6.9 and sets everything up, the raw mod files if you'd rather install it yourself, and a README explaining both. Everyone needs the same version.",
       "details": [
-        "Co-op focused multiplayer for FTL runs",
-        "Share ship management across players",
-        "Always-latest zip via the Aluminum Dog publish workflow"
+        "Up to 8 players share one ship, one crew member each",
+        "Room-based controls: piloting, weapons, drones, doors and more",
+        "Join through Steam invites (no port forwarding) or by direct IP",
+        "Installer exe + raw mod files + README in one zip"
       ],
       "file": "ftl-multiplayer.zip",
-      "version": "0.0.0-placeholder",
+      "version": "11.0.0",
       "status": "available",
-      "updatedAt": null,
-      "changelog": "Slot ready. Publish from Souper / Cursor to replace this placeholder zip.",
+      "updatedAt": "2026-10-12T16:52:16Z",
+      "changelog": "11.0.0: first public build (co-op mod version 11). Up to 8 players, Steam invites or IP, join or leave mid-run, vote to save and quit, smarter AI crew for unclaimed crew members. Needs FTL 1.6.9 - the installer rolls it back for you.",
       "media": {
         "cover": "media/ftl-multiplayer/cover.jpg",
         "gif": "media/ftl-multiplayer/highlights.webp",
