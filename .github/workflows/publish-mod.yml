@@ -12,7 +12,7 @@ on:
         options:
           - noita-multiplayer
           - ftl-multiplayer
-          - soulforge-multiplayer
+          - sulfur-multiplayer
       version:
         required: true
         type: string

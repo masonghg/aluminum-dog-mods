@@ -1,6 +1,33 @@
 {
-  "updatedAt": "2026-10-12T16:52:16Z",
+  "updatedAt": "2026-10-12T17:36:18Z",
   "mods": [
+    {
+      "id": "sulfur-multiplayer",
+      "name": "SULFUR Multiplayer",
+      "game": "SULFUR",
+      "summary": "Online co-op for 2\u20138 players. Fight the same enemies, share the loot and drop into each other's levels through Steam.",
+      "description": "SULFUR Multiplayer lets you and your friends play SULFUR together. One player loads their save and hosts from the F8 menu, and everyone else joins through Steam (an invite, or \"Join Game\" in the friends list) \u2014 no IP addresses or port forwarding. Joiners drop straight into the host's level and follow them from level to level. Enemies are run by the host's game and go after every player, and loot, chests, doors, breakables and loose physics objects are shared. Other players show up as goblins holding whatever weapon they have out. Everyone keeps their own character, inventory and save.\n\nThe zip contains an installer (SulfurMP-Setup.exe) that finds your SULFUR folder and sets everything up, the raw mod files if you'd rather install it yourself, and a README explaining both. Everyone needs the same version.",
+      "details": [
+        "2\u20138 players, joined through Steam invites or \"Join Game\" (no port forwarding)",
+        "Shared enemies, loot, chests, doors, breakables and physics objects",
+        "Friends drop into the host's level and follow them automatically",
+        "Installer exe + raw mod files + README in one zip"
+      ],
+      "file": "sulfur-multiplayer.zip",
+      "version": "0.3.0",
+      "status": "available",
+      "updatedAt": "2026-10-12T17:36:18Z",
+      "changelog": "0.3.0: first public build. Steam lobbies for 2\u20138 players, shared enemies, loot, doors and physics objects, other players shown as goblins with their weapons, and automatic drop-in when the host changes level. Everyone must have the same version.",
+      "media": {
+        "cover": "media/sulfur-multiplayer/cover.jpg",
+        "gif": "media/sulfur-multiplayer/highlights.webp",
+        "images": [
+          "media/sulfur-multiplayer/ss1.jpg",
+          "media/sulfur-multiplayer/ss2.jpg",
+          "media/sulfur-multiplayer/ss3.jpg"
+        ]
+      }
+    },
     {
       "id": "noita-multiplayer",
       "name": "Noita Multiplayer",
@@ -52,32 +79,6 @@
           "media/ftl-multiplayer/ss1.jpg",
           "media/ftl-multiplayer/ss2.jpg",
           "media/ftl-multiplayer/ss3.jpg"
-        ]
-      }
-    },
-    {
-      "id": "soulforge-multiplayer",
-      "name": "Soulforge Multiplayer",
-      "game": "Soulforge",
-      "summary": "Bring friends into Soulforge\u2014multiplayer builds published here the moment Cursor finishes an update.",
-      "description": "Soulforge Multiplayer packages the latest co-op / online build so your friends can hop in without you manually shipping files. Open the dropdown for a look at the vibe, read what's new in the changelog, then download the zip.\n\nWhen Souper (or Cursor) finishes updating the mod, it can publish straight to this slot\u2014overwriting soulforge-multiplayer.zip and refreshing the version badge automatically.",
-      "details": [
-        "Dedicated multiplayer package for Soulforge",
-        "Version badge and changelog update on each publish",
-        "Designed for friend installs\u2014one URL, always current"
-      ],
-      "file": "soulforge-multiplayer.zip",
-      "version": "0.0.0-placeholder",
-      "status": "available",
-      "updatedAt": null,
-      "changelog": "Slot ready. Publish from Souper / Cursor to replace this placeholder zip.",
-      "media": {
-        "cover": "media/soulforge-multiplayer/cover.jpg",
-        "gif": "media/soulforge-multiplayer/highlights.webp",
-        "images": [
-          "media/soulforge-multiplayer/ss1.jpg",
-          "media/soulforge-multiplayer/ss2.jpg",
-          "media/soulforge-multiplayer/ss3.jpg"
         ]
       }
     }
