@@ -2,7 +2,7 @@
 
 Public download source for [aluminum-dog-games-site](https://github.com/masonghg/aluminum-dog-games-site).
 
-The website loads `manifest.json` and the zip/media files from **this** repo. Cursor agents working on Noita / FTL / SULFUR should publish **here only** — no website branch or PR required.
+The website loads `manifest.json` and the zip/media files from **this** repo. Cursor agents working on Noita / FTL / SULFUR / Plants vs. Zombies should publish **here only** — no website branch or PR required.
 
 ## Slots
 
@@ -11,6 +11,7 @@ The website loads `manifest.json` and the zip/media files from **this** repo. Cu
 | `noita-multiplayer` | `noita-multiplayer.zip` |
 | `ftl-multiplayer` | `ftl-multiplayer.zip` |
 | `sulfur-multiplayer` | `sulfur-multiplayer.zip` |
+| `pvz-multiplayer` | `pvz-multiplayer.zip` |
 
 ## Publish a build (cheapest for Cursor)
 

@@ -13,6 +13,7 @@ on:
           - noita-multiplayer
           - ftl-multiplayer
           - sulfur-multiplayer
+          - pvz-multiplayer
       version:
         required: true
         type: string

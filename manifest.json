@@ -1,6 +1,35 @@
 {
-  "updatedAt": "2026-10-14T03:00:00Z",
+  "updatedAt": "2026-10-14T04:11:15Z",
   "mods": [
+    {
+      "id": "pvz-multiplayer",
+      "name": "Plants vs. Zombies Multiplayer",
+      "game": "Plants vs. Zombies",
+      "summary": "Online co-op for up to 4 players in Lawn Tycoon, a new endless mode where you walk the lawn as Crazy Dave, share the sun and money, and buy your way from one lane to five.",
+      "description": "Plants vs. Zombies Multiplayer adds Lawn Tycoon, an endless co-op mode for up to 4 players. Every player walks around the lawn as their own Crazy Dave (each a different colour, with their name over his head) and plants on the tile they're standing on, and everyone shares the same sun and seed bank. You start in the front yard with one lane and only the Peashooter. Every zombie you kill pays out, the money is shared by the whole team, and the shop sells new seed types (39 plants, from Sunflower to Winter Melon), more lanes (up to all 5) and new lawn mowers. The waves never stop: every stage is 10 waves, and like the game's own Endless mode they get bigger and new kinds of zombies show up as you go. Host a Steam lobby and invite your friends (or they use \"Join Game\" on you, even while the game is running), or play over your home network by IP. Every plant, zombie, pea, sun drop and coin is the same for everyone. The rest of the game still works as normal, and your original install and saves aren't touched.\n\nThe zip contains an installer (PvZ-Multiplayer-Setup.exe) that finds your Plants vs. Zombies folder and sets Steam to start the mod, the raw mod files if you'd rather install it yourself, and a README explaining both. You need your own copy of Plants vs. Zombies (Game of the Year edition on Steam), and everyone needs the same version.",
+      "details": [
+        "Up to 4 players, each walking the lawn as their own colour of Crazy Dave",
+        "Lawn Tycoon: start with 1 lane and the Peashooter, earn shared money from kills and buy seeds, lanes and mowers",
+        "Endless waves that scale up like the game's Endless mode",
+        "Shared sun, seed bank and money, and every plant, zombie and pea is synced",
+        "Join through Steam invites or \"Join Game\" (no port forwarding), even mid-game, or by IP on your home network",
+        "Installer exe + raw mod files + README in one zip"
+      ],
+      "file": "pvz-multiplayer.zip",
+      "version": "1.0.0",
+      "status": "available",
+      "updatedAt": "2026-10-14T04:11:15Z",
+      "changelog": "1.0.0: first public build. Up to 4 players, Lawn Tycoon endless co-op, Steam invites or LAN. Includes a one-click installer.",
+      "media": {
+        "cover": "media/pvz-multiplayer/cover.jpg",
+        "gif": "media/pvz-multiplayer/highlights.webp",
+        "images": [
+          "media/pvz-multiplayer/ss1.jpg",
+          "media/pvz-multiplayer/ss2.jpg",
+          "media/pvz-multiplayer/ss3.jpg"
+        ]
+      }
+    },
     {
       "id": "sulfur-multiplayer",
       "name": "SULFUR Multiplayer",
