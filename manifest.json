@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T04:11:15Z",
+  "updatedAt": "2026-10-14T04:30:15Z",
   "mods": [
     {
       "id": "pvz-multiplayer",
@@ -18,7 +18,7 @@
       "file": "pvz-multiplayer.zip",
       "version": "1.0.0",
       "status": "available",
-      "updatedAt": "2026-10-14T04:11:15Z",
+      "updatedAt": "2026-10-14T04:30:15Z",
       "changelog": "1.0.0: first public build. Up to 4 players, Lawn Tycoon endless co-op, Steam invites or LAN. Includes a one-click installer.",
       "media": {
         "cover": "media/pvz-multiplayer/cover.jpg",
