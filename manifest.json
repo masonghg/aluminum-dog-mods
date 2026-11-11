@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T04:41:00Z",
+  "updatedAt": "2026-11-11T18:40:18Z",
   "mods": [
     {
       "id": "pvz-multiplayer",
@@ -47,10 +47,10 @@
         "Installer exe + raw mod files + README in one zip"
       ],
       "file": "sulfur-multiplayer.zip",
-      "version": "0.10.0",
+      "version": "0.10.1",
       "status": "available",
-      "updatedAt": "2026-10-30T01:54:59Z",
-      "changelog": "Version 0.10.0: updated for SULFUR 1.0. Everyone needs this version to play together.",
+      "updatedAt": "2026-11-11T18:40:18Z",
+      "changelog": "Version 0.10.1: players who join a friend now play on the host's difficulty, so dying costs them their gear just like the host. Everyone needs this version to play together.",
       "media": {
         "cover": "media/sulfur-multiplayer/cover.jpg",
         "images": [
